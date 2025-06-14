@@ -14,7 +14,7 @@ function News () {
   useEffect(() => {
     const fetchTransactions = async () => {
       try {
-        const response = await axios.get(
+        const response = await axios.get<{ news: NewsItem[] }>(
           'https://raw.githubusercontent.com/younginnovations/internship-challenges/master/front-end/news_list.json'
         )
         if (response.status === 200) {

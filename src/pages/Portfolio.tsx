@@ -13,6 +13,9 @@ import PortfolioEleven from '../assets/images/portfolio-11.png';
 import PortfolioTwelve from '../assets/images/portfolio-12.png';
 import PortfolioThirteen from '../assets/images/portfolio-13.png';
 import PortfolioFourteen from '../assets/images/portfolio-14.png';
+import PortfolioFifteen from '../assets/images/portfolio-15.png';
+import PortfolioSixteen from '../assets/images/portfolio-16.png';
+
 
 const Portfolio: React.FC = () => {
   return (
@@ -23,6 +26,39 @@ const Portfolio: React.FC = () => {
             <div className="container">
               <h2 className="section-title headline-md text-center" id="portfolio-label">Latest Projects</h2>
               <ul className="portfolio-list">
+                <li>
+                  <div className="portfolio-card">
+                    <div className="card-banner img-holder">
+                      <img src={PortfolioSixteen} width="800" height="540" loading="lazy"
+                        alt="Blog Platform" className="img-cover" />
+                    </div>
+                    <div className="card-content">
+                      <span className="chip label-md">Web Application</span>
+                      <h3 className="title-md">Takris Crochet Management System</h3>
+                      <p className="card-text">
+                        Takris Crochet Management System is a comprehensive web-based application designed to streamline the inventory, order, and customer management processes for a handmade crochet business. The system enables the business owner to efficiently track products, monitor sales, manage raw materials, and fulfill customer orders with ease.
+                      </p>
+                      <a href="https://takris-crochet.netlify.app/" target='_blank' className="btn btn-primary">View Project</a>
+                    </div>
+                  </div>
+                </li>
+                
+                <li>
+                  <div className="portfolio-card">
+                    <div className="card-banner img-holder">
+                      <img src={PortfolioFifteen} width="800" height="540" loading="lazy"
+                        alt="Blog Platform" className="img-cover" />
+                    </div>
+                    <div className="card-content">
+                      <span className="chip label-md">Website</span>
+                      <h3 className="title-md">Evolve With LBEF</h3>
+                      <p className="card-text">
+                      Career Pathways is an intensive training and mentorship program designed to prepare +2 graduates for a thriving career in the Information Technology (IT) sector. The program offers a unique blend of career planning, technical training, and scholarship opportunities to help students transition smoothly into their undergraduate IT journey.
+                      </p>
+                      <a href="https://evolve.lbef.org/" target='_blank' className="btn btn-primary">View Project</a>
+                    </div>
+                  </div>
+                </li>
                 <li>
                   <div className="portfolio-card">
                     <div className="card-banner img-holder">
@@ -154,7 +190,7 @@ const Portfolio: React.FC = () => {
                       <p className="card-text">
                         A modern, responsive website developed for Patan College, featuring course listings, student testimonials, and online application forms.
                       </p>
-                      <a href="https://patancollege.edu.np/" target='_blank'className="btn btn-primary">View Project</a>
+                      <a href="https://patancollege.edu.np/" target='_blank' className="btn btn-primary">View Project</a>
                     </div>
                   </div>
                 </li>
@@ -237,7 +273,7 @@ const Portfolio: React.FC = () => {
                       <span className="chip label-md">Websites</span>
                       <h3 className="title-md">Amazon Clone</h3>
                       <p className="card-text">
-                       The Amazon Clone project is a full-featured e-commerce platform that replicates the core functionalities of Amazon. The platform provides a comprehensive online shopping experience, allowing users to browse, search, and purchase products across various categories.
+                        The Amazon Clone project is a full-featured e-commerce platform that replicates the core functionalities of Amazon. The platform provides a comprehensive online shopping experience, allowing users to browse, search, and purchase products across various categories.
                       </p>
                       <a href="https://charitraa.github.io/Amazon_Clone/" target='_blank' className="btn btn-primary">View Project</a>
                     </div>
